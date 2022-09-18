@@ -4,7 +4,6 @@ import javax.swing.JComponent;
 public class Traffic_Light extends JComponent{
     public void paintComponent(Graphics g){
         Graphics2D g2 = (Graphics2D) g;
-        Rectangle r = new Rectangle();
         
         g2.setColor(Color.BLACK);
         g2.fillRect(100, 100, 150, 350);
